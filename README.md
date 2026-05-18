@@ -43,3 +43,4 @@ Stack: React, Node.js, PostgreSQL, Redis, BullMQ, Mapbox, Docker
 
 **Email:** vermaa0118@gmail.com  
 **LinkedIn:** [linkedin.com/in/aarav-verma](https://linkedin.com/in/aarav-verma)
+

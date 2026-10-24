@@ -1,46 +1,39 @@
-# Hi, I'm Aarav 
+# Hi, I'm Aarav
 
-Sophomore studying Aerospace Engineering at UIUC. Co-founder of **Volant** — fleet operations software for drone and eVTOL operators.
+Aerospace Engineering student at the University of Illinois Urbana-Champaign (Grainger), minoring in Computer Science. I work on UAV hardware, structural analysis, and the software that flies the hardware.
 
-The short version: Samsara built a $25B company solving fleet ops for trucking. The same problem is coming for autonomous aviation and nobody has built it yet. That's what me and my co-founder Tharun (Materials Science, UIUC) are working on.
-
----
-
-## What I'm Building
-
-### [Volant](https://github.com/Verma0118/volant) — Fleet Ops Software for Autonomous Aviation
-B2B SaaS platform for drone and eVTOL operators. Full-stack MVP shipped across five modules:
-
-- **Fleet Map** — real-time aircraft positions and status via WebSocket + Redis pub/sub
-- **Mission Dispatch** — create, assign, and monitor missions with live route overlay
-- **Maintenance Tracker** — flight-hour accrual, maintenance events, due items
-- **Compliance Log** — FAA Part 135 audit trail and reporting
-- **Analytics** — utilization, flight hours, and cost data across the fleet
-- **Telemetry Ingest** — hardware endpoint (`POST /api/telemetry/ingest`) for real drone integration
-
-Stack: React, Node.js, PostgreSQL, Redis, BullMQ, Mapbox, Docker
+**Portfolio:** [verma0118.github.io](https://verma0118.github.io) · **LinkedIn:** [linkedin.com/in/aaravverma0118](https://www.linkedin.com/in/aaravverma0118) · **Email:** aarav.verma.eng0118@gmail.com
 
 ---
 
-## Areas of Focus
+## Experience
 
-- Autonomous aviation and eVTOL operations
-- Full-stack product development
-- Fleet management and FAA regulatory compliance (Part 135, Part 137)
-- Real-time systems and telemetry
+**Tarform** · Mechanical Design Engineer Intern (Part-Time) · *Aug 2026 – Oct 2026*
+Production documentation and manufacturing drawings for machined and fabricated motorcycle components in SolidWorks, with GD&T per ASME Y14.5.
+
+**NOBE** · Project Manager, Interceptor UAV · *Jun 2026 – Present*
+Leading 6 developers across CAD and software on a palm-sized interceptor UAV for Haylon Technologies. Fusion 360 airframe integration, plus a Python vision pipeline (YOLO + ByteTrack) for tracking, ranging, and intercept lead-point guidance.
+
+**NOBE** · Engineering Lead, Canary Drone Project · *Feb 2026 – May 2026*
+Toroidal propeller redesign (ANSYS Fluent, ~11% thrust efficiency gain at 4–6k RPM; FEA FoS > 2.0) and a modular UAV airframe presented at the Cozad New Venture Challenge.
+
+**Ghost Electric Motorcycles** · Drivetrain Engineer · *Aug 2025 – Jan 2026*
+Drivetrain frame and rear swingarm in SolidWorks, reverse-engineered from the Kawasaki ZX-6R to match OEM anti-squat and pivot geometry; validated in ANSYS FEA and MATLAB.
 
 ---
 
-## Currently
+## Projects
 
-- Talking to drone fleet operators (Zipline, Joby, Pyka) before building the wrong thing
-- Building hardware — 5 palm-sized drones with real telemetry feeding into Volant
-- Pre-seed, no funding, shipping fast
+- **[Haylon Intercept Sim](https://github.com/Verma0118/haylon-intercept-sim)**: browser sim of the interceptor control loop (launch detect → stabilize → track → guide), plus the host-side vision and control stack.
+- **Actuator-Limited Flight Controller** (Simulink): cascaded rate/angle PID for a multi-axis UAV, overshoot cut from 40% to 10%, with actuator saturation and anti-windup characterization.
+- **Parametric Airfoil Structural Analysis** (MATLAB + Fusion 360): NACA 0012 FEA with a mesh convergence study that found and fixed a stress singularity.
+- **Cantilever Bracket FEA**: hand calcs vs. FEA, caught a 10x load-application error and reconciled results to within 10%.
+- **[TVC Simulator](https://github.com/Verma0118/TVC_Simulator_V1)**: thrust vector control simulator.
 
 ---
 
-## Reach Out
+## Toolbox
 
-**Email:** vermaa0118@gmail.com  
-**LinkedIn:** [linkedin.com/in/aaravverma0118](https://linkedin.com/in/aaravverma0118)
-
+**CAD & Design:** Siemens NX, SolidWorks, Fusion 360, Onshape, GD&T (ASME Y14.5), 3D printing
+**Simulation & Analysis:** ANSYS FEA, ANSYS Fluent, MATLAB (PDE Toolbox), Simulink
+**Software:** Python (NumPy, Matplotlib, OpenCV, YOLO), MATLAB
